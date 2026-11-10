@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hani | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <header class="header" id="home">
+        <nav class="navbar">
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-text">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>Hani.</span></h1>
+                <h2>IT Student & Aspiring Web Developer</h2>
+                <p>
+                    I enjoy learning about technology, solving problems
+                    and creating simple digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="cv.pdf" class="btn btn-outline" download>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
+        <div class="section-heading">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/my photo.jpg" alt="Hani's profile">
+            </div>
+
+            <div class="about-text">
+                <h3>A little about myself</h3>
+                <p>
+                    My name is Hani, and I am a Diploma in Information
+                    Technology student at Zetech University. I am
+                    interested in web development and learning how
+                    technology can solve everyday problems.
+                </p>
+                <p>
+                    I am a curious and motivated learner who enjoys
+                    developing new skills and working on practical
+                    projects. I look forward to gaining experience
+                    through an internship.
+                </p>
+
+                <div class="personal-details">
+                    <p><strong>Name:</strong> Hani</p>
+                    <p><strong>Course:</strong> Diploma in IT</p>
+                    <p><strong>Institution:</strong> Zetech University</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills" id="skills">
+        <div class="section-heading">
+            <p>WHAT I CAN DO</p>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating the structure of web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Styling websites and arranging page layouts.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Understanding programming and problem-solving.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Database Management</h3>
+                <p>Learning how to organise and manage data.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects" id="projects">
+        <div class="section-heading">
+            <p>MY RECENT WORK</p>
+            <h2>My Projects</h2>
+        </div>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-number">01</div>
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A personal website designed to introduce myself,
+                    display my skills and showcase my work.
+                </p>
+                <p class="technologies">
+                    <strong>Technologies:</strong> HTML, CSS
+                </p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">02</div>
+                <h3>Student Record Management System</h3>
+                <p>
+                    A proposed system for organising student information
+                    and making records easier to manage.
+                </p>
+                <p class="technologies">
+                    <strong>Technologies:</strong> Python, Database Management
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact" id="contact">
+        <div class="section-heading">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's connect</h3>
+                <p>
+                    I would love to connect, learn and explore
+                    opportunities in technology.
+                </p>
+              
+                <p><strong>Email:</strong>
+    <a href="mailto:abdihani783@gmail.com">abdihani783@gmail.com</a>
+</p>
+
+<p><strong>Phone:</strong>
+    <a href="tel:+254706781248">+254 706 781 248</a>
+</p>
+            </div>
+
+            <form class="contact-form" action="https://formsubmit.co/abdihani783@gmail.com" method="POST">
+                <input type="text" name="name"
+                    placeholder="Your Name" required>
+
+                <input type="email" name="email"
+                    placeholder="Your Email" required>
+
+                <textarea name="message" rows="5"
+                    placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Hani. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
